@@ -1,0 +1,65 @@
+<tns:JPK xmlns:etd="http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2018/08/24/eD/DefinicjeTypy/" xmlns:tns="http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2018/08/24/eD/DefinicjeTypy/" xmlns:xsi="http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2018/08/24/eD/DefinicjeTypy/" xsi:schemaLocation="http://crd.gov.pl/wzor/2021/12/27/11148/schemat.xsd">
+	<tns:Naglowek>
+		<tns:KodFormularza type="tns:TKodFormularza" kodSystemowy="JPK_WB (1)" wersjaSchemy="1-0">JPK_WB</tns:KodFormularza>
+		<tns:WariantFormularza type="xsd:byte">1</tns:WariantFormularza>
+		<tns:CelZlozenia type="tns:TCelZlozenia">1</tns:CelZlozenia>
+		<tns:DataWytworzeniaJPK type="etd:TDataCzas">2024-05-11 23:16:33</tns:DataWytworzeniaJPK>
+		<tns:DataOd type="etd:TData">2024-05-01</tns:DataOd>
+		<tns:DataDo type="etd:TData">2024-05-10</tns:DataDo>
+		<tns:DomyslnyKodWaluty type="kck:currCode_Type">PLN</tns:DomyslnyKodWaluty>
+		<tns:KodUrzedu type="etd:TKodUS">1234</tns:KodUrzedu>
+	</tns:Naglowek>
+	<tns:Podmiot1>
+		<tns:IdentyfikatorPodmiotu type="etd:TIdentyfikatorOsobyNiefizycznej">
+			<etd:NIP type="etd:TNrNIP">123-456-32-18</etd:NIP>
+			<etd:PelnaNazwa type="xsd:token">Jan Kowalski</etd:PelnaNazwa>
+			<etd:REGON type="etd:TNrREGON">12 345678 9</etd:REGON>
+		</tns:IdentyfikatorPodmiotu>
+		<tns:AdresPodmiotu type="etd:TAdresPolski">
+			<etd:KodKraju type="etd:TKodKraju">PL</etd:KodKraju>
+			<etd:Wojewodztwo type="etd:TJednAdmin">mazowieckie</etd:Wojewodztwo>
+			<etd:Powiat type="etd:TJednAdmin">Pruszkowski</etd:Powiat>
+			<etd:Gmina type="etd:TJednAdmin">Nadarzyn</etd:Gmina>
+			<etd:Ulica type="etd:TUlica">Warszawska</etd:Ulica>
+			<etd:NrDomu type="etd:TNrBudynku">1</etd:NrDomu>
+			<etd:NrLokalu type="etd:TNrLokalu">12</etd:NrLokalu>
+			<etd:Miejscowosc type="etd:TMiejscowosc">Nadarzyn</etd:Miejscowosc>
+			<etd:KodPocztowy type="etd:TKodPocztowy">11-111</etd:KodPocztowy>
+			<etd:Poczta type="etd:TMiejscowosc">Nadarzyn</etd:Poczta>
+		</tns:AdresPodmiotu>
+	</tns:Podmiot1>
+	<tns:NumerRachunku type="xsd:string">11 1111 1111 1111 1111 1111 1111</tns:NumerRachunku>
+	<tns:Salda>
+		<tns:SaldoPoczatkowe type="tns:TKwotowy">0.00</tns:SaldoPoczatkowe>
+		<tns:SaldoKoncowe type="tns:TKwotowy">2150.00</tns:SaldoKoncowe>
+	</tns:Salda>
+	<tns:WyciagWiersz>
+		<tns:NumerWiersza type="tns:TNaturalnyJPK">1</tns:NumerWiersza>
+		<tns:DataOperacji type="etd:TData">2024-05-01</tns:DataOperacji>
+		<tns:NazwaPodmiotu type="tns:TZnakowyJPK">Praca</tns:NazwaPodmiotu>
+		<tns:OpisOperacji type="tns:TZnakowyJPK">Wynagrodzenie</tns:OpisOperacji>
+		<tns:KwotaOperacji type="tns:TKwotowy">2500.00</tns:KwotaOperacji>
+		<tns:SaldoOperacji type="tns:TKwotowy">2500.00</tns:SaldoOperacji>
+	</tns:WyciagWiersz>
+	<tns:WyciagWiersz>
+		<tns:NumerWiersza type="tns:TNaturalnyJPK">2</tns:NumerWiersza>
+		<tns:DataOperacji type="etd:TData">2024-05-05</tns:DataOperacji>
+		<tns:NazwaPodmiotu type="tns:TZnakowyJPK">Sklep spożywczy</tns:NazwaPodmiotu>
+		<tns:OpisOperacji type="tns:TZnakowyJPK">Zakupy spożywcze</tns:OpisOperacji>
+		<tns:KwotaOperacji type="tns:TKwotowy">-150.00</tns:KwotaOperacji>
+		<tns:SaldoOperacji type="tns:TKwotowy">2350.00</tns:SaldoOperacji>
+	</tns:WyciagWiersz>
+	<tns:WyciagWiersz>
+		<tns:NumerWiersza type="tns:TNaturalnyJPK">3</tns:NumerWiersza>
+		<tns:DataOperacji type="etd:TData">2024-05-10</tns:DataOperacji>
+		<tns:NazwaPodmiotu type="tns:TZnakowyJPK">Restauracja</tns:NazwaPodmiotu>
+		<tns:OpisOperacji type="tns:TZnakowyJPK">Obiad z rodziną</tns:OpisOperacji>
+		<tns:KwotaOperacji type="tns:TKwotowy">-200.00</tns:KwotaOperacji>
+		<tns:SaldoOperacji type="tns:TKwotowy">2150.00</tns:SaldoOperacji>
+	</tns:WyciagWiersz>
+	<tns:WyciagCtrl>
+		<tns:LiczbaWierszy type="tns:TNaturalnyJPK">3</tns:LiczbaWierszy>
+		<tns:SumaObciazen type="tns:TKwotowy">350.00</tns:SumaObciazen>
+		<tns:SumaUznan type="tns:TKwotowy">2500.00</tns:SumaUznan>
+	</tns:WyciagCtrl>
+</tns:JPK>
